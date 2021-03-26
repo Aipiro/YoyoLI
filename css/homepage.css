@@ -198,6 +198,7 @@
 #about .photo {
   width: 350px;
   height: 500px;
+  margin-left:80px;
 }
 
 #about .photo img {
