@@ -1,0 +1,93 @@
+{
+  "id": "2442697",
+  "name": "YLI",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "929978",
+      "name": "wordpress",
+      "font_class": "wordpress",
+      "unicode": "e89a",
+      "unicode_decimal": 59546
+    },
+    {
+      "icon_id": "5618156",
+      "name": "Jquery",
+      "font_class": "Jquery",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "5618166",
+      "name": "Bootstrap",
+      "font_class": "Bootstrap",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "6496026",
+      "name": "Vue",
+      "font_class": "Vue",
+      "unicode": "e799",
+      "unicode_decimal": 59289
+    },
+    {
+      "icon_id": "6902533",
+      "name": "Node.js",
+      "font_class": "Nodejs",
+      "unicode": "e7a4",
+      "unicode_decimal": 59300
+    },
+    {
+      "icon_id": "12600657",
+      "name": "css",
+      "font_class": "css",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "12600847",
+      "name": "php",
+      "font_class": "php",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "13303484",
+      "name": "html",
+      "font_class": "html",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "14919881",
+      "name": "Ps",
+      "font_class": "tubiaozhizuomoban-01",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "14921214",
+      "name": "Xd",
+      "font_class": "tubiaozhizuomoban4-01",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "16459944",
+      "name": "js",
+      "font_class": "js",
+      "unicode": "ec3a",
+      "unicode_decimal": 60474
+    },
+    {
+      "icon_id": "19649331",
+      "name": "json",
+      "font_class": "json",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    }
+  ]
+}
