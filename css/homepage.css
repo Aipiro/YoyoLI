@@ -235,6 +235,7 @@
 
 #about .photo {
   width: 40%;
+  overflow:hidden;
 }
 
 #about .photo img {
