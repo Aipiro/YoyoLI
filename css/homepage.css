@@ -246,5 +246,6 @@
   #about .introduction,
   #about .photo {
     width: 100%;
+    padding:0;
   }
 }
