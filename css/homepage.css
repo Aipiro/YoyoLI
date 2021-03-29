@@ -245,6 +245,6 @@
 @media screen and (max-width: 980px) {
   #about .introduction,
   #about .photo {
-    width: 80%;
+    width: 100%;
   }
 }
