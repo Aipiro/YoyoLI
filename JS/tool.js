@@ -18,6 +18,7 @@ window.onload=function (){
         target.style.color='#646464';
         aMarker[0].style.left= '0px';
         aMarker[0].style.width= '0px';
+
     }
 
 
@@ -26,5 +27,19 @@ window.onload=function (){
 		$(".menu").toggleClass("active");
 	});
 	
+    var oUl = document.getElementById("ul1");
+	            
+         oUl.innerHTML += oUl.innerHTML;
+         oUl.style.width = 120 *32 +'px';
+                
+         var timer = null ;
+         clearInterval(timer);
+         timer = setInterval(function(){
+            oUl.style.left = oUl.offsetLeft-5 +"px";
+            if (oUl.offsetLeft <= -oUl.offsetWidth/2){
+                oUl.style.left= 0;
+            }
 
+         },120);   
+    
 }
