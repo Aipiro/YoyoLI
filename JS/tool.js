@@ -1,5 +1,6 @@
 
 window.onload=function (){
+    
     var aMenu = document.getElementsByClassName('menu');
     var aMarker = document.getElementsByClassName('marker');
 
@@ -41,5 +42,38 @@ window.onload=function (){
             }
 
          },120);   
-    
+
+        var zoom = document.getElementById('zoom');
+        var bigImg = document.getElementById('bigImg');
+        var aImages = document.getElementsByClassName('work');
+
+        for ( var i = 0; i< aImages.length; i++){
+
+            aImages[i].onclick = function (){
+                    
+              zoom.style.display = 'block';
+
+              var img = this.getElementsByTagName("img");
+              bigImg.src = img[0].src;
+
+               }
+        }
+
+        bigImg.onclick = function() {
+              zoom.style.display = 'none';
+            }
+
+
+
+        var modal = document.getElementById('modal');
+        var bgImg = document.getElementById('bgImg');
+        var myImg = document.getElementById('myImg');
+
+        myImg.onclick = function() {
+            modal.style.display = 'block';
+        }
+
+        bgImg.onclick = function() {
+            modal.style.display = 'none';
+        }	 
 }
