@@ -128,7 +128,7 @@
 }
 
 #zoom {
-	display: none;
+  display: none;
   position:fixed;
   top: 0;
   left: 0;
@@ -148,7 +148,7 @@
 
 .zoom img {
     animation-name: zoom;
-	  animation-duration: 0.6s;
+    animation-duration: 0.6s;
     display: block;
     padding: 10px;
     margin: auto;
@@ -297,7 +297,7 @@
   }
 }
 #modal {
-	display: none;
+  display: none;
   position:fixed;
   top: 0;
   left: 0;
@@ -316,7 +316,7 @@
 
 .modal img {
     animation-name: zoom;
-	  animation-duration: 0.6s;
+    animation-duration: 0.6s;
     display: block;
     padding: 10px;
     margin: auto;
