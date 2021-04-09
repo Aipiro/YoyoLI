@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 		<script src="./iconfont/iconfont.js"></script>
 		<script src="./JS/tool.js"></script>
+		
 
 		<style>
 			.icon {
@@ -155,52 +156,67 @@
 		</div>
 
 		<div id="portfolio" class="dark">
+
+			<div id='zoom'>
+				<div class='zoom'>
+					<img id='bigImg'/>
+				</div>
+			</div>
+
 			<div class="inner-width">
 			  <h1 class="portfolio-title">PORTFOLIO</h1>
 
-			  <div class="works">
-				<a href="images/1.png" class="work">
-				  <img src="images/1.png" alt="">
-				  <div class="info">
-					<h3>NZ Express Travel</h3>
-					<div>New Design, New Functions</div>
-				  </div>
-				</a>
-				<a href="images/2.png" class="work">
+			<div class="works">
+				
+				<div class="work" id='img1'>
+				  		<img src="images/1.png" alt="" >
+				 		 <div class="info">
+							<h3>NZ Express Travel</h3>
+							<div>New Design, New Functions</div>
+				  		</div>
+				</div>
+			   
+
+				<div  class="work">
 				  <img src="images/2.png" alt="">
 				  <div class="info">
 					<h3>ONEVisa</h3>
 					<div>Web Design & Web Development</div>
 				  </div>
-				</a>
-				<a href="images/3.png" class="work">
+				</div>
+
+				<div class="work">
 				  <img src="images/3.png" alt="">
 				  <div class="info">
 					<h3>App UI Design</h3>
 					<div>Music app new interface</div>
 				  </div>
-				</a>
-				<a href="images/4.png" class="work">
+				</div>
+
+				<div class="work">
 				  <img src="images/4.png" alt="">
 				  <div class="info">
 					<h3>Dream Girl</h3>
 					<div>UI Design</div>
 				  </div>
-				</a>
-				<a href="images/5.png" class="work">
+				</div>
+
+				<div class="work">
 				  <img src="images/5.png" alt="">
 				  <div class="info">
 					<h3>Travel City</h3>
 					<div>UI Design</div>
 				  </div>
-				</a>
-				<a href="images/6.png" class="work">
+				</div>
+
+				<div class="work">
 				  <img src="images/6.png" alt="">
 				  <div class="info">
 					<h3>App UI Design</h3>
 					<div>Project UI Design</div>
 				  </div>
-				</a>
+				</div>
+
 			  </div>
 			</div>
 		  </div>
@@ -218,9 +234,15 @@
 						<p>Language: <strong> Mandarin & English</strong></p>	
 						<a href="./PDF/CV.pdf">Download Resume</a>
 					</div>
-					<div class="photo">
-						<img src="images/img12.jpg">
+					<div class="photo" >
+						<img src="images/img12.jpg" id="myImg">
 					</div>
+					
+				</div>
+			</div>
+			<div id='modal'>
+				<div class='modal'>
+					<img id='bgImg' src="images/img12.jpg" />
 				</div>
 			</div>
 		</div>
@@ -234,5 +256,6 @@
 				</div>
 				
 			</div>
+	
 		</body>
 </html>
